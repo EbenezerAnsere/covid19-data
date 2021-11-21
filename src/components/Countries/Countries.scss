@@ -1,0 +1,155 @@
+.countries-stats {
+    height: auto;
+    width: 100%;
+}
+
+.countries-state-headline {
+    font-weight: 700 !important;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.filtering {
+    height: 60px;
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.filtering input {
+    height: 100%;
+    width: 70%;
+    padding-left: 25px;
+    border: 1px solid black;
+}
+
+.filtering .sort-by {
+    height: 100%;
+    width: calc(100% - 75%);
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 320px){
+    .countries-stats {
+        height: auto;
+        width: 100%;
+    }
+    .countries-state-headline {
+        font-weight: 500 !important;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .filtering {
+        height: 60px;
+        width: 90%;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+.filtering input {
+    height: 60%;
+    width: 40%;
+    padding-left: 20px;
+    border: 1px solid black;
+    }
+    .filtering .sort-by {
+        height: 60%;
+        width: calc(100% - 75%);
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .countries-stats {
+        height: auto;
+        width: 100%;
+    }
+    .countries-state-headline {
+        font-weight: 500 !important;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .filtering {
+        height: 60px;
+        width: 90%;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+.filtering input {
+    height: 60%;
+    width: 40%;
+    padding-left: 20px;
+    border: 1px solid black;
+    }
+    .filtering .sort-by {
+        height: 60%;
+        width: calc(100% - 75%);
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .countries-stats {
+        height: auto;
+        width: 100%;
+    }
+    .countries-state-headline {
+        font-weight: 500 !important;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .filtering {
+        height: 60px;
+        width: 90%;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+.filtering input {
+    height: 60%;
+    width: 40%;
+    padding-left: 20px;
+    border: 1px solid black;
+    }
+    .filtering .sort-by {
+        height: 60%;
+        width: calc(100% - 75%);
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px){
+    .countries-stats {
+        height: auto;
+        width: 100%;
+    }
+    .countries-state-headline {
+        font-weight: 500 !important;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .filtering {
+        height: 60px;
+        width: 140%;
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+    
+.filtering input {
+    height: 70%;
+    width: 30%;
+    padding-left: 20px;
+    border: 1px solid black;
+    }
+    .filtering .sort-by {
+        height: 60%;
+        width: calc(100% - 75%);
+        margin-left: 20px;
+    }
+}

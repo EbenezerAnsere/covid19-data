@@ -1,0 +1,36 @@
+.logout {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__name {
+    font-size: 15px;
+    margin: 0 30px 30px;
+    color: white;
+}
+
+.logout__button {
+    border: none;
+    color: rgb(6, 102, 6);
+    width: 50px;
+    height: 25px;
+    margin-top: 25px;
+    background-color: rgb(45, 45, 250);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+    .logout {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 875px) {
+    .logout {
+        display: none;
+    }
+}

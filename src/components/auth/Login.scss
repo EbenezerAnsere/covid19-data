@@ -1,0 +1,86 @@
+$mybackgroundcolor: rgba(27, 43, 196, 0.623);
+$mycolor: white;
+.login-open {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/covid.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    color: $mycolor;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__link {
+    max-width: 900px;
+    height: 70vh;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-top: 5%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 6px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 6px rgba(0, 0, 0, 0);
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+input {
+    width: 96%;
+    padding: 10px;
+    background-color: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(141, 179, 250);
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(57, 57, 233, 0.794);
+    margin-top: 15px;
+    color: $mycolor;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width:500px) {
+    .login {
+        width: 100%;
+        height: 100vh;
+    }
+    .form__link {
+        max-width: 300px;
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .login {
+        width: 100%;
+        height: 100vh;
+    }
+    .form__link {
+        max-width: 400px;
+        height: 70vh;
+    }
+}

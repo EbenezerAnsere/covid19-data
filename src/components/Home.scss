@@ -1,0 +1,496 @@
+.Home {
+    overflow: hidden;
+}
+
+.enter {
+    position: absolute;
+    right: 50%;
+    bottom: -160%;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #00828c;
+    color: white;
+    border-radius: 5px;
+}
+
+.who {
+    color: #000000;
+}
+
+.covid19__update {
+    text-align: center;
+    font: 40px;
+    color: #000000;
+    padding: 20px;
+}
+
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 30%;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide p {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.project {
+    width: 100%;
+    height: 500px;
+    margin-top: 15%;
+}
+
+.update {
+    text-align: center;
+}
+
+.title-information {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.group-advice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.advice {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(4, 23, 58);
+    margin-left: 10px; 
+    border-radius: 5px;
+    color: white;
+}
+
+@media only screen and (max-width: 320px){
+    .enter {
+        position: absolute;
+        right: 50%;
+        bottom: -130%;
+    }
+    button {
+        width: 70px;
+        height: 30px;
+        margin-top: 5px;
+        background-color: #00828c;
+        color: white;
+        box-sizing: 5px;
+    }
+
+    .slider {
+        position: relative;
+        top: 30%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .image {
+       width: 230px;
+       height: 200px;
+   }
+
+   .matter {
+    margin-left: 10px;
+       font-size: 15px;
+   }
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 1rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size: 1rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.project {
+    width: 100%;
+    height: 700px;
+    margin-top: 15%;
+}
+
+.group-advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advice {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(4, 23, 58);
+    margin-top: 10px; 
+    border-radius: 5px;
+    color: white;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .enter {
+        position: absolute;
+        right: 50%;
+        bottom: -130%;
+    }
+
+    button {
+        width: 60px;
+        height: 30px;
+        margin-top: 7px;
+        background-color: #00828c;
+        color: white;
+        box-sizing: 5px;
+    }
+    .matter {
+        margin-left: 10px;
+           font-size: 15px;
+           overflow: hidden;
+       }
+
+       .slider {
+        position: relative;
+        top: 30%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        max-width: 300px;
+        height: 250px;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        font-size: 1rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        font-size: 1rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .project {
+        width: 100%;
+        height: 700px;
+        margin-top: 15%;
+    }
+    
+    .group-advice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .advice {
+        width: 350px;
+        height: 200px;
+        background-color: rgb(4, 23, 58);
+        margin-top: 10px; 
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 780px){
+    .enter {
+        position: absolute;
+        right: 50%;
+        bottom: -150%;    
+    }
+
+    button {
+        width: 80px;
+        height: 40px;
+        margin-top: 7px;
+        background-color: #00828c;
+        color: white;
+        box-sizing: 5px;
+    }
+    .matter {
+        margin-left: 10px;
+        font-size: 15px;    
+       }
+
+       .slider {
+        position: relative;
+        top: 45%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 400px;
+        height: 380px;
+        margin-top: 10%;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        font-size: 2rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        font-size: 2rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .project {
+        width: 100%;
+        height: 700px;
+        margin-top: 15%;
+    }
+    
+    .group-advice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .advice {
+        width: 400px;
+        height: 200px;
+        background-color: rgb(4, 23, 58);
+        margin-top: 10px; 
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 950px){
+    .enter {
+        position: absolute;
+        right: 50%;
+        bottom: -150%;
+        
+    }
+    button {
+        width: 100px;
+        height: 60px;
+        margin-top: 7px;
+        background-color: #00828c;
+        color: white;
+        box-sizing: 5px;
+    }
+    .matter {
+        margin-left: 10px;
+           font-size: 15px;   
+       }
+
+    .image {
+        width: 600px;
+        height: 450px;
+        margin-top: 20%;
+    }
+    
+    .slider {
+        position: relative;
+        top: 60%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        font-size: 2rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        font-size: 2rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .project {
+        width: 100%;
+        height: 700px;
+        margin-top: 30%;
+    }
+    
+    .group-advice {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .advice {
+        width: 400px;
+        height: 200px;
+        background-color: rgb(4, 23, 58);
+        margin-top: 10px; 
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1200px){
+    .enter {
+        position: absolute;
+        right: 50%;
+        bottom: -150%;    
+    }
+    button {
+        width: 100px;
+        height: 60px;
+        margin-top: 7px;
+        background-color: #00828c;
+        color: white;
+        box-sizing: 5px;
+    }
+    .matter {
+        margin-left: 10px;
+           font-size: 15px;   
+       }
+       .slider {
+        position: relative;
+        top: 50%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 700px;
+        height: 650px;
+        margin-top: 50%;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        font-size: 2rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        font-size: 2rem;
+        color: #000;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .project {
+        width: 100%;
+        height: 700px;
+        margin-top: 40%;
+    }
+    
+    .group-advice {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .advice {
+        width: 400px;
+        height: 200px;
+        background-color: rgb(4, 23, 58);
+        margin-top: 10px; 
+        border-radius: 5px;
+        color: white;
+    }
+}

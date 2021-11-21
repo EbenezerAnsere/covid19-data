@@ -1,0 +1,125 @@
+.worldStats-box {
+    height: 100%;
+    width: 250px;
+    float: left;
+    margin-right: 80px;
+}
+
+.totalNumbers {
+    font-size: 2.7rem;
+    color: white;
+    font-weight: 700 !important;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 320px){
+    .worldStats-box {
+        height: 50%;
+        width: 40px;
+        float: left;
+        margin-right: 80px;
+    } 
+    .totalNumbers {
+        font-size: 2rem;
+        color: white;
+        font-weight: 500 !important;
+        font-family: sans-serif;
+        width: 50%;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .about {
+        width: 50%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 5%;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .worldStats-box {
+        height: 50%;
+        width: 40px;
+        float: left;
+        margin-right: 80px;
+    } 
+    .totalNumbers {
+        font-size: 2rem;
+        color: white;
+        font-weight: 500 !important;
+        font-family: sans-serif;
+        width: 50%;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .about {
+        width: 50%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 5%;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .worldStats-box {
+        height: 50%;
+        width: 40px;
+        float: left;
+        margin-right: 80px;
+    } 
+    .totalNumbers {
+        font-size: 2rem;
+        color: white;
+        font-weight: 500 !important;
+        font-family: sans-serif;
+        width: 50%;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .about {
+        width: 50%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 5%;
+        font-family: sans-serif;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 950px){
+    .worldStats-box {
+        height: 50%;
+        width: 40px;
+        float: left;
+        margin-right: 80px;
+    } 
+    .totalNumbers {
+        font-size: 2rem;
+        color: white;
+        font-weight: 500 !important;
+        font-family: sans-serif;
+        width: 50%;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .about {
+        width: 50%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 5%;
+        font-family: sans-serif;
+    }
+}
